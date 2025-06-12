@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,17 +12,19 @@
     :root {
       --primary-color: #1d1e22;
       --accent-color: #e5c07b;
-      --bg-color: #ffffff;
+      --bg-color: #f5f5f5;
       --font-main: 'Newsreader', serif;
       --font-title: 'Newsreader', serif;
     }
 
     body {
-      margin: 0;
-      font-family: var(--font-main);
       background-color: var(--bg-color);
+      background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+      background-repeat: repeat;
       color: var(--primary-color);
       line-height: 1.6;
+      margin: 0;
+      font-family: var(--font-main);
     }
 
     .banner {
